@@ -1,6 +1,6 @@
 public class Perbandingan {
     public static void main(String[] args) {
-        int nilai = 10;
+        int nilai = 70;
         int minimumKelulusan = 60;
         //== (sama dengan)
         System.out.println(nilai == minimumKelulusan);

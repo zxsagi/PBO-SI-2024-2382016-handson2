@@ -6,7 +6,7 @@ public class Assigment {
 
         //2. Assigment Aritmatika
         int a = 5;
-        a = a + 10;
+        a += 5;
         //bisa juga a += 5; = a = a + 10;
         System.out.println(a);
 

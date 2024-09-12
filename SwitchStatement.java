@@ -5,7 +5,7 @@ public class SwitchStatement {
         Scanner scanner = new Scanner(System.in);
 
         int nomorHari;
-        System.out.println("Masukkan nomor diantara 1 sampai 7 :");
+        System.out.print("Masukkan nomor diantara 1 sampai 7 :");
         nomorHari = scanner.nextInt();
         String namaHari = "";
 
@@ -35,6 +35,7 @@ public class SwitchStatement {
                 System.out.println("Masukkan nomor diantara 1 sampai 7");
                 System.exit(0);
         }
+        System.out.println("Nama hari : " + namaHari);
 
     }
 }
